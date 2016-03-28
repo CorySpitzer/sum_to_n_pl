@@ -6,7 +6,9 @@ use warnings;
 print("Enter a number: ");
 my $n = <STDIN>;
 
-for (my $i = 0; $i < $n; $i++)
+my $sum = 0;
+for (my $i = 0; $i <= $n; $i++)
 {
-  print("$i\n")
+  $sum += $i
 }
+print("$sum\n")
