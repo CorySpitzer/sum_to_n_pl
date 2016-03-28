@@ -3,9 +3,10 @@
 use strict;
 use warnings;
 
-# $n = <STDIN>
+print("Enter a number: ");
+my $n = <STDIN>;
 
-for (my $i = 0; $i < 10; $i++)
+for (my $i = 0; $i < $n; $i++)
 {
   print("$i\n")
 }
